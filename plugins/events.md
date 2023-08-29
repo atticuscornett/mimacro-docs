@@ -18,3 +18,10 @@ Fires when the plugin is disabled.
 
 # onDeviceMessage(message, [device](/structures/device))
 Fires when mimacro receives a serial message from a device. Passes in the string contents of a message and the device that sent it.
+
+# onSettingUpdate(settingID)
+Fires when the value of a plugin [setting](/structures/setting) is updated (including by the plugin.) Passes in the id of the setting that was changed.
+For creating and getting settings, see [settings functions](/plugins/functions?id=settings)
+
+# onGetActions()
+Fires when mimacro needs a list of available macro actions. Can optionally return a list of [action](/structures/action) objects that your plugin can handle.

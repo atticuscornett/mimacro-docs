@@ -18,3 +18,12 @@ Parameters:
 - `settingType` (string) - The type of value the setting is. (Options: `"boolean"`, `"string"`, `"choice"`, `"number"`)
 - `settingDefault` (any) - The default value of a setting.
 - `options` (Optional[string]) - Required only for `"choice"` type settings. A list of string options that can be selected.
+
+### getSetting(plugin, settingID)
+Get the [setting](/structures/setting) object with the id specified. The setting value is under the `"value"` key.
+
+Parameters:
+- `plugin` ([plugin](/structures/plugin)) - Your plugin object.
+- `settingID` (string) - The unique key for the setting
+
+Returns a [setting](/structures/setting) object.

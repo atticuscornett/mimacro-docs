@@ -11,7 +11,7 @@ The settings you register with the settings API can be found on the plugin page 
 Creates a new setting with a unique setting id for your plugin. If the id is already in use, does nothing.
 
 Parameters:
-- `plugin` ([plugin](/structures/plugin)) - Your plugin object.
+- `plugin` ([plugin](/plugins/structures?id=plugin)) - Your plugin object.
 - `settingID` (string) - A unique key for this setting.
 - `settingLabel` (string) - The name of the setting displayed to the user.
 - `settingDescription` (string) - A description of what this setting changes.
@@ -20,10 +20,18 @@ Parameters:
 - `options` (Optional[string]) - Required only for `"choice"` type settings. A list of string options that can be selected.
 
 ### getSetting(plugin, settingID)
-Get the [setting](/structures/setting) object with the id specified. The setting value is under the `"value"` key.
+Get the [setting](/plugins/structures?id=settings) object with the id specified. The setting value is under the `"value"` key.
 
 Parameters:
-- `plugin` ([plugin](/structures/plugin)) - Your plugin object.
+- `plugin` ([plugin](/plugins/structures?id=plugin)) - Your plugin object.
 - `settingID` (string) - The unique key for the setting
 
-Returns a [setting](/structures/setting) object.
+Returns a [setting](/plugins/structures?id=settings) object.
+
+### setSettings(plugin, settingID, value)
+Sets the value of the [setting](/plugins/structures?id=setting) with the id specified. Fires [onSettingUpdate](/plugins/events?id=onsettingupdatesettingid) event.
+
+Parameters:
+- `plugin` ([plugin](/plugins/structures?id=plugin)) - Your plugin object
+- `settingID` (string) - The unique key for the setting
+- `value` (any) - The new setting value

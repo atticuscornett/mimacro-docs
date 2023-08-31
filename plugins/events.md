@@ -10,18 +10,18 @@ function onEnable(){
 modules.exports = {onEnable};
 ```
 
-# onEnable([plugin](/structures/plugin))
+### onEnable([plugin](/plugins/structures?id=plugin))
 Fires when the plugin is enabled and passes in the plugin object.
 
-# onDisable()
+### onDisable()
 Fires when the plugin is disabled.
 
-# onDeviceMessage(message, [device](/structures/device))
+### onDeviceMessage(message, [device](/plugins/structures?id=device))
 Fires when mimacro receives a serial message from a device. Passes in the string contents of a message and the device that sent it.
 
-# onSettingUpdate(settingID)
-Fires when the value of a plugin [setting](/structures/setting) is updated (including by the plugin.) Passes in the id of the setting that was changed.
-For creating and getting settings, see [settings functions](/plugins/functions?id=settings)
+### onSettingUpdate(settingID)
+Fires when the value of a plugin [setting](/plugins/structures?id=setting) is updated (including by the plugin.) Passes in the id of the setting that was changed.
+For creating and getting settings, see [settings functions](/plugins/functions?id=settings).
 
-# onGetActions()
-Fires when mimacro needs a list of available macro actions. Can optionally return a list of [action](/structures/action) objects that your plugin can handle.
+### onGetActions()
+Fires when mimacro needs a list of available macro actions. Can optionally return a list of [action](/plugins/structures?id=action) objects that your plugin can handle.

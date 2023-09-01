@@ -17,3 +17,6 @@ Add a `displayName` property to `package.json`. This is the name that will be di
 ### Create your Plugin
 Now you are ready to create your plugin, which is loaded into mimacro as a node module.
 For further reading, try learning about [plugin events](/plugins/events) or [functions](/plugins/events).
+
+### Packaging your Plugin
+To bundle your plugin into a compatible plugin file, put all of your plugin files in the top level of a `.zip`.

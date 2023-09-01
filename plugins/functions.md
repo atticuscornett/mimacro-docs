@@ -20,13 +20,13 @@ Parameters:
 - `options` (Optional[string]) - Required only for `"choice"` type settings. A list of string options that can be selected.
 
 ### getSetting(plugin, settingID)
-Get the [setting](/plugins/structures?id=settings) object with the id specified. The setting value is under the `"value"` key.
+Get the [setting](/plugins/structures?id=setting) object with the id specified. The setting value is under the `"value"` key.
 
 Parameters:
 - `plugin` ([plugin](/plugins/structures?id=plugin)) - Your plugin object.
 - `settingID` (string) - The unique key for the setting
 
-Returns a [setting](/plugins/structures?id=settings) object.
+Returns a [setting](/plugins/structures?id=setting) object.
 
 ### setSettings(plugin, settingID, value)
 Sets the value of the [setting](/plugins/structures?id=setting) with the id specified. Fires [onSettingUpdate](/plugins/events?id=onsettingupdatesettingid) event.

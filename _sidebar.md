@@ -1,5 +1,5 @@
 - [Home](/)
-- [Getting Started](/)
+- [Getting Started](/getting-started)
 - [Plugins](/plugins/)
   - [Quick Start](/plugins/quickstart)
   - [Events](/plugins/events)

@@ -4,5 +4,5 @@ Firmware is listed by microcontroller and version.
 
 <details>
     <summary>Arduino Uno</summary>
-    <a href="https://atticuscornett.github.io/mimacro-docs/firmware/arduino/uno/0.0.2.ino">v0.0.2 (latest)</a>
+    <a href="/mimacro-docs/firmware/arduino/uno/0.0.2.ino">v0.0.2 (latest)</a>
 </details>

@@ -7,7 +7,7 @@ You can listen to an event by writing a function matching the event name and exp
 function onEnable(){
     console.log("This plugin has just been enabled!");
 }
-modules.exports = {onEnable};
+module.exports = {onEnable};
 ```
 
 ### onEnable([plugin](/plugins/structures?id=plugin))

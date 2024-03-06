@@ -16,5 +16,7 @@
         </toc-element>
         <toc-element topic="Plugin-API-Versions.md"/>
         <toc-element topic="Events.md"/>
+        <toc-element topic="Functions.md"/>
+        <toc-element topic="Structures.md"/>
     </toc-element>
 </instance-profile>

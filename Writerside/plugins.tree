@@ -4,11 +4,9 @@
 
 <instance-profile id="plugins"
                  name="mimacro Docs"
-                 start-page="mimacro-Plugins.md">
+                 start-page="mimacro-Docs.topic">
 
-    <toc-element topic="starter-topic.md"/>
     <toc-element topic="mimacro-Docs.topic"/>
-    <toc-element topic="Section-Starting-Page.topic"/>
     <toc-element topic="mimacro-Plugins.md">
         <toc-element topic="Getting-Started.md">
             <toc-element topic="Creating-A-Plugin.md"/>

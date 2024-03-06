@@ -14,4 +14,12 @@
         <description>Created after removal of "mimacro Docs" from mimacro Docs</description>
         <accepts>mimacro-docs.html</accepts>
     </rule>
+    <rule id="43c98ec9">
+        <description>Created after removal of "Section Starting Page" from mimacro Docs</description>
+        <accepts>Section-Starting-Page.html</accepts>
+    </rule>
+    <rule id="69132e11">
+        <description>Created after removal of "mimacro Plugins" from mimacro Docs</description>
+        <accepts>starter-topic.html</accepts>
+    </rule>
 </rules>

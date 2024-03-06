@@ -1,3 +1,0 @@
-# Getting Started with Plugins
-
-Start typing here...

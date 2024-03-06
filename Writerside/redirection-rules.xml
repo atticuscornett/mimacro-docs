@@ -22,4 +22,8 @@
         <description>Created after removal of "mimacro Plugins" from mimacro Docs</description>
         <accepts>starter-topic.html</accepts>
     </rule>
+    <rule id="55400db">
+        <description>Created after removal of "Getting Started with Plugins old" from mimacro Docs</description>
+        <accepts>Getting-Started.html</accepts>
+    </rule>
 </rules>

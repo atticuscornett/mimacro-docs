@@ -8,10 +8,13 @@
 
     <toc-element topic="mimacro-Docs.topic"/>
     <toc-element topic="mimacro-Plugins.md">
-        <toc-element topic="Getting-Started.md">
+        <toc-element topic="Getting-Started-with-Plugins.topic">
             <toc-element topic="Creating-A-Plugin.md"/>
             <toc-element topic="Making-Plugin-Actions.md"/>
             <toc-element topic="Making-Plugin-Settings.md"/>
+            <toc-element topic="Debugging-Plugins.md"/>
         </toc-element>
+        <toc-element topic="Plugin-API-Versions.md"/>
+        <toc-element topic="Events.md"/>
     </toc-element>
 </instance-profile>

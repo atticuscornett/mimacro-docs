@@ -7,6 +7,10 @@
                  start-page="mimacro-Docs.topic">
 
     <toc-element topic="mimacro-Docs.topic"/>
+    <toc-element topic="Getting-Started.md"/>
+    <toc-element topic="Supported-Microcontrollers.md"/>
+    <toc-element topic="Firmware-List.md"/>
+    <toc-element topic="Troubleshooting.md"/>
     <toc-element topic="mimacro-Plugins.md">
         <toc-element topic="Getting-Started-with-Plugins.topic">
             <toc-element topic="Creating-A-Plugin.md"/>

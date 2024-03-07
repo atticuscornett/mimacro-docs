@@ -23,26 +23,26 @@
 
         <!--    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
         <spotlight>
-            <a href="" type="start" summary="Install and set up mimacro.">Getting Started</a>
-            <a href="" type="learn" summary="Learn how to use the plugin API.">Plugin Docs</a>
+            <a href="Getting-Started.md" type="start" summary="Install and set up mimacro.">Getting Started</a>
+            <a href="mimacro-Plugins.md" type="learn" summary="Learn how to use the plugin API.">Plugin Docs</a>
         </spotlight>
 
         <!--    Add several topics that are most important for this section.    -->
         <primary>
             <title>Setting up mimacro</title>
-            <a href="" summary="Install and set up mimacro.">Getting Started</a>
-            <a href="" summary="Discover which microcontrollers work with mimacro.">Supported Microcontrollers</a>
-            <a href="" summary="Download firmware to manually flash to your microcontroller.">Firmware List</a>
-            <a href="" summary="Fix common issues with mimacro.">Troubleshooting</a>
+            <a href="Getting-Started.md" summary="Install and set up mimacro.">Getting Started</a>
+            <a href="Supported-Microcontrollers.md" summary="Discover which microcontrollers work with mimacro.">Supported Microcontrollers</a>
+            <a href="Firmware-List.md" summary="Download firmware to manually flash to your microcontroller.">Firmware List</a>
+            <a href="Troubleshooting.md" summary="Fix common issues with mimacro.">Troubleshooting</a>
         </primary>
 
         <!--    Add several topics that are less important or are relevant only for advanced/experienced users.    -->
         <secondary>
             <title>Creating mimacro plugins</title>
-            <a href="" summary="Create your first plugin.">Getting Started with Plugins</a>
-            <a href="" summary="Respond to device and plugin events.">Events</a>
-            <a href="" summary="Use utilities provided by the plugin API.">Functions</a>
-            <a href="" summary="View the common data structures mimacro uses.">Structures</a>
+            <a href="Getting-Started-with-Plugins.topic" summary="Create your first plugin.">Getting Started with Plugins</a>
+            <a href="Events.md" summary="Respond to device and plugin events.">Events</a>
+            <a href="Functions.md" summary="Use utilities provided by the plugin API.">Functions</a>
+            <a href="Structures.md" summary="View the common data structures mimacro uses.">Structures</a>
         </secondary>
     </section-starting-page>
 

@@ -47,14 +47,13 @@ An action is represented as an object with these properties:
 
 {type="narrow"}
 displayName
-: The human name of the action
+: The human name of the action.
 
 id
-: A unique key for the action
+: A unique key for the action.
 
 ui
-: A list of the UI components/settings for the action
-: **Leave empty if no UI input is required.**
+: A list of the UI components/settings for the action. **Leave empty if no UI input is required.**
 
 This creates a function that looks something like this:
 ```Javascript
@@ -99,5 +98,72 @@ async function onAction(actionID){
 ```
 > Don't forget to add this function to your `module.exports`, or this code won't work!
 
+If we create a macro that uses the action now, we can see "Hello, world!" is typed.
 
-# TODO: Advanced action stuff like UI
+### Advanced Actions
+
+Some actions require additional input to work, such as a message to type or a key to press.
+mimacro's plugin API lets you specify the inputs your action needs with the `ui` property.
+The `ui` property is a list of [ActionUI](Structures.md#ActionUI) objects to show the user.
+
+ActionUI objects have the following properties:
+
+{type="narrow"}
+id
+: Unique id for the ActionUI object.
+
+label
+: Input label to show to the user.
+
+type
+: The type of input. Can be `"string"`, `"number"`, `"options-select"`, or `"checkbox"`.
+
+options
+: Required for `"options-select"` type. List of strings to be shown as options.
+
+Let's make another action that will type whatever messages the user specifies.
+
+First, we will add a new action to `onGetActions`.
+
+```Javascript
+function onGetActions(){
+    return [
+        {
+            "displayName": "My First Action",
+            "id": "first-action",
+            "ui": []
+        },
+        // New action
+        {
+            "displayName": "Type a Message",
+            "id": "type-message",
+            "ui": [
+                {
+                    "id": "message",
+                    "label": "Message to type",
+                    "type": "string"
+                }
+            ]
+        }
+    ]
+}
+```
+
+Next, we need to modify our `onAction` function.
+The second parameter `onAction` receives is an object with the UI ids as keys.
+
+```Javascript
+// Note the new parameter.
+function onAction(actionID, actionSettings){
+    if (actionID === "first-action"){
+        await keyboard.type("Hello, world!");
+    }
+    // New action
+    if (actionID === "type-message"){
+        await keyboard.type(actionSettings["message"]);
+    }
+}
+```
+
+We can now create advanced actions with user input!
+For plugins with global persistent settings, see [making plugin settings](Making-Plugin-Settings.md).

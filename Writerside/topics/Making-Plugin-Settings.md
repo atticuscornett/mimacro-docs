@@ -64,9 +64,9 @@ If we install our new plugin and reload the plugins page, we now see a settings 
 ### Getting Setting Values
 
 To get the value of a setting, we use the `getSetting` function.
-`getPlugin` takes two parameters, the plugin object and the setting id.
+`getSetting` takes two parameters, the plugin object and the setting id.
 
-The `getPlugin` function returns a [SettingValue](Structures.md#SettingValue) object with these properties:
+The `getSetting` function returns a [SettingValue](Structures.md#SettingValue) object with these properties:
 
 {type="narrow"}
 value

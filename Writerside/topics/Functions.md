@@ -78,34 +78,6 @@ plugin ([Plugin](Structures.md#plugin))
 settingObj ([Setting](Structures.md#setting))
 : The setting to show to the user.
 
-#### registerSetting(plugin, settingID, settingLabel, settingDescription, settingType, settingDefault, [options])
-
-> This function is deprecated and may be removed in future API versions.
-> 
-{style="warning"}
-
-{type="narrow"}
-plugin ([Plugin](Structures.md#plugin))
-: Your plugin object.
-
-settingID (String)
-: A unique key for this setting.
-
-settingLabel (String)
-: The name of the setting displayed to the user.
-
-settingDescription (String)
-: A description of what this setting changes.
-
-settingType (String)
-: The type of value the setting is. (Options: "boolean", "string", "choice", "number")
-
-settingDefault (any)
-: The default value of a setting.
-
-options (Optional[String])
-: Required only for "choice" type settings. A list of string options that can be selected.
-
 #### getSetting(plugin, settingID)
 
 Get the value of a setting.
@@ -132,3 +104,31 @@ settingID (String)
 
 value (any)
 : The value to set the setting to.
+
+#### registerSetting(plugin, settingID, settingLabel, settingDescription, settingType, settingDefault, [options])
+
+> This function is deprecated and may be removed in future API versions.
+>
+{style="warning"}
+
+{type="narrow"}
+plugin ([Plugin](Structures.md#plugin))
+: Your plugin object.
+
+settingID (String)
+: A unique key for this setting.
+
+settingLabel (String)
+: The name of the setting displayed to the user.
+
+settingDescription (String)
+: A description of what this setting changes.
+
+settingType (String)
+: The type of value the setting is. (Options: "boolean", "string", "choice", "number")
+
+settingDefault (any)
+: The default value of a setting.
+
+options (Optional[String])
+: Required only for "choice" type settings. A list of string options that can be selected.

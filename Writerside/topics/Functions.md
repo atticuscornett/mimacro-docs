@@ -12,7 +12,7 @@ but don't fit in to any other category.
 Send a serial message to a connected device.
 
 {type="narrow"}
-device ([Device](Structures.md#Device))
+device ([Device](Structures.md#device))
 : The device to send the message to.
 
 message (String)
@@ -81,7 +81,7 @@ settingObj ([Setting](Structures.md#setting))
 #### getSetting(plugin, settingID)
 
 Get the value of a setting.
-Returns a [SettingValue](Structures.md#SettingValue) object.
+Returns a [SettingValue](Structures.md#settingvalue) object.
 
 {type="narrow"}
 plugin ([Plugin](Structures.md#plugin))

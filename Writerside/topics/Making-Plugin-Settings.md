@@ -20,7 +20,7 @@ function onEnable(pluginObj){
 ```
 
 Next, we use the `registerPluginObj` function in `onEnable` to register a plugin setting.
-`registerPluginObj` takes two parameters, the plugin object and a [setting object](Structures.md#Setting).
+`registerPluginObj` takes two parameters, the plugin object and a [setting object](Structures.md#setting).
 
 A plugin setting object has the following properties:
 
@@ -66,7 +66,7 @@ If we install our new plugin and reload the plugins page, we now see a settings 
 To get the value of a setting, we use the `getSetting` function.
 `getSetting` takes two parameters, the plugin object and the setting id.
 
-The `getSetting` function returns a [SettingValue](Structures.md#SettingValue) object with these properties:
+The `getSetting` function returns a [SettingValue](Structures.md#settingvalue) object with these properties:
 
 {type="narrow"}
 value

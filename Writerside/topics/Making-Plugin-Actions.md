@@ -104,7 +104,7 @@ If we create a macro that uses the action now, we can see "Hello, world!" is typ
 
 Some actions require additional input to work, such as a message to type or a key to press.
 mimacro's plugin API lets you specify the inputs your action needs with the `ui` property.
-The `ui` property is a list of [ActionUI](Structures.md#ActionUI) objects to show the user.
+The `ui` property is a list of [ActionUI](Structures.md#actionui) objects to show the user.
 
 ActionUI objects have the following properties:
 

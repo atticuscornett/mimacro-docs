@@ -21,10 +21,10 @@
         </primary>
         <secondary>
             <title>
-                UPDATE
+                Technical Docs
             </title>
-            <a href=""></a>
-            <a href=""></a>
+            <a href="Events.md">Events</a>
+            <a href="Functions.md">Functions</a>
         </secondary>
     </section-starting-page>
 </topic>

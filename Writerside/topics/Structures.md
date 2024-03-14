@@ -128,5 +128,30 @@ required (Boolean, optional)
 : Whether the value must be set by the user. Defaults to `true` if not set.
 
 ### PinOut
+A PinOut object contains the port configuration of a mimacro device.
+
+analog (Number[])
+: List of device analog pin configuration states.
+(Convert ids to parts using [parts.json](https://github.com/atticuscornett/mimacro/blob/main/parts.json).)
+
+digital (Number[])
+: List of device digital pin configuration states.
+(Convert ids to parts using [parts.json](https://github.com/atticuscornett/mimacro/blob/main/parts.json).)
 
 ### PinProperties
+
+A PinProperties object contains the advanced settings for each pin of a mimacro device.
+
+analog (object)
+
+: Advanced settings for analog pins.
+
+: Object properties:
+- minChange (Number) - The minimum value change for the analog pin to update.
+- timeout (Number) - The minimum amount of time between analog pin updates.
+
+digital (object)
+: Advanced settings for digital pins.
+
+: Object Properties:
+- timeout (Number) - The minimum amount of time between digital pin updates.

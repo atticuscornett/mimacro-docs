@@ -1,7 +1,0 @@
-- [Home](/)
-- [Getting Started](/getting-started)
-- [Plugins](/plugins/)
-  - [Quick Start](/plugins/quickstart)
-  - [Events](/plugins/events)
-  - [Functions](/plugins/functions)
-  - [Structures](/plugins/structures)

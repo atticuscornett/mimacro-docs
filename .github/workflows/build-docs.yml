@@ -4,7 +4,7 @@ on:
   push:
     branches: ["main"]
   workflow_dispatch:
-  
+
 permissions:
   id-token: write
   pages: write
@@ -34,8 +34,9 @@ jobs:
           name: docs
           path: |
             artifacts/${{ env.ARTIFACT }}
+            artifacts/report.json
           retention-days: 7
-   test:
+  test:
     needs: build
     runs-on: ubuntu-latest
     steps:

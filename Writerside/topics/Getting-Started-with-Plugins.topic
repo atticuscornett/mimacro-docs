@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Getting Started with Plugins" id="Getting-Started-with-Plugins">
+
+    <section-starting-page>
+        <title>Getting Started with Plugins</title>
+        <description>Learn the basics of the mimacro plugin API.</description>
+        <spotlight>
+            <a href="Creating-A-Plugin.md" type="start" summary="Set up the project structure for a plugin."></a>
+            <a href="Making-Plugin-Actions.md" type="development" summary="Make actions that can be used in macros."></a>
+        </spotlight>
+        <primary>
+            <title>
+                Plugin Basics
+            </title>
+            <a href="Making-Plugin-Settings.md" summary="Create a settings page for your plugin."></a>
+            <a href="Debugging-Plugins.md" summary="Learn how to debug errors in your plugin."></a>
+        </primary>
+        <secondary>
+            <title>
+                Technical Docs
+            </title>
+            <a href="Events.md">Events</a>
+            <a href="Functions.md">Functions</a>
+        </secondary>
+    </section-starting-page>
+</topic>

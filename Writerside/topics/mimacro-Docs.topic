@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="mimacro Docs" id="mimacro-Docs">
+
+<!--    A section combines multiple topics dedicated to a specific subject.
+            Add a starting page to provide an overview of the topics in the section.
+            Start with two topics you want to promote in the <spotlight> group,
+            several important topics in the <primary> group (for example, where to start),
+            several less important topics in the <secondary> group (for example, more advanced topics),
+            and optionally add any other relevant topics in the <misc> group as cards and lists of links
+            (maybe related topics from other sections).
+            Only the spotlight section is limited to two topics.
+            For other groups, try to keep the number between 2 and 6, but you can add more if necessary.-->
+
+    <section-starting-page>
+        <title>mimacro Docs</title>
+        <description>
+            Learn how to supercharge your microcontroller with desktop automation.
+        </description>
+
+        <!--    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
+        <spotlight>
+            <a href="Getting-Started.md" type="start" summary="Install and set up mimacro.">Getting Started</a>
+            <a href="mimacro-Plugins.md" type="learn" summary="Learn how to use the plugin API.">Plugin Docs</a>
+        </spotlight>
+
+        <!--    Add several topics that are most important for this section.    -->
+        <primary>
+            <title>Setting up mimacro</title>
+            <a href="Getting-Started.md" summary="Install and set up mimacro.">Getting Started</a>
+            <a href="Supported-Microcontrollers.md" summary="Discover which microcontrollers work with mimacro.">Supported Microcontrollers</a>
+            <a href="Firmware-List.md" summary="Download firmware to manually flash to your microcontroller.">Firmware List</a>
+            <a href="Troubleshooting.md" summary="Fix common issues with mimacro.">Troubleshooting</a>
+        </primary>
+
+        <!--    Add several topics that are less important or are relevant only for advanced/experienced users.    -->
+        <secondary>
+            <title>Creating mimacro plugins</title>
+            <a href="Getting-Started-with-Plugins.topic" summary="Create your first plugin.">Getting Started with Plugins</a>
+            <a href="Events.md" summary="Respond to device and plugin events.">Events</a>
+            <a href="Functions.md" summary="Use utilities provided by the plugin API.">Functions</a>
+            <a href="Structures.md" summary="View the common data structures mimacro uses.">Structures</a>
+        </secondary>
+    </section-starting-page>
+
+</topic>

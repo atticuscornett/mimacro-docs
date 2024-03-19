@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <variables></variables>
+    <build-profile instance="plugins">
+        <variables>
+            <noindex-content>false</noindex-content>
+            <custom-favicons>icon.png</custom-favicons>
+            <header-logo>icon.png</header-logo>
+            <primary-color>frozen</primary-color>
+            <download-title>Get mimacro</download-title>
+            <download-page>https://atticuscornett.github.io/mimacro</download-page>
+            <showDownloadButton>true</showDownloadButton>
+        </variables>
+    </build-profile>
+
+</buildprofiles>

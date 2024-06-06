@@ -15,7 +15,7 @@ Introduced: TBA
 
 - [use](Functions.md#use-package) now provides `"@jitsi/robotjs": "^0.6.13"` instead of `"@nut-tree/nut-js": "^4.0.0"`.
 Keyboard and mouse controlling plugins must be changed accordingly.
-- `pluginAPIVersion` key must now be supplied for plugin to run.
+- `pluginAPIVersion` key must now be supplied in `package.json` for plugin to run.
 
 ### Other Changes
 

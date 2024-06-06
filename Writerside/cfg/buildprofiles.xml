@@ -8,6 +8,7 @@
             <noindex-content>false</noindex-content>
             <custom-favicons>icon.png</custom-favicons>
             <header-logo>icon.png</header-logo>
+            <product-web-url>https://atticuscornett.github.io/mimacro-docs</product-web-url>
             <primary-color>frozen</primary-color>
             <download-title>Get mimacro</download-title>
             <download-page>https://atticuscornett.github.io/mimacro</download-page>

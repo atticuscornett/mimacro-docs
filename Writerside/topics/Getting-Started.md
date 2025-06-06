@@ -1,6 +1,6 @@
 # Getting Started
 
-> At the moment, mimacro only supports a limited amount of microcontrollers.
+> At the moment, mimacro only supports a limited selection of microcontrollers.
 > You should check if your device is a [supported microcontroller](Supported-Microcontrollers.md).
 > Support for more devices is planned in the future.
 
@@ -8,7 +8,7 @@
 <step>
 Connect your microcontroller to your computer.
 
-> Ensure no other software is using your device.
+> Ensure no other software is using your device's serial connection, such as the Arduino IDE.
 </step>
 <step>
 On the device page, select add device.

@@ -7,9 +7,9 @@ specified, value of `1` is assumed.
 > This version is upcoming and introduces breaking changes.
 {style="warning"}
 
-Supported mimacro versions: TBA
+Supported mimacro versions: `1.1.0` - current
 
-Introduced: TBA
+Introduced: December 11, 2025
 
 ### Breaking Changes
 
@@ -24,4 +24,4 @@ Supported mimacro versions: `1.0.0` to `1.0.1`
 
 Introduced: Oct 28, 2023
 
-Deprecated: TBA
+Deprecated: December 11, 2025

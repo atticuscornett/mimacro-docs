@@ -23,8 +23,8 @@ Use a Node.js package provided by mimacro.
 Works just like `require` in Node.
 
 ##### Provided Modules {collapsible="true"}
-As of [API version](Plugin-API-Versions.md) 1, mimacro provides the following packages:
-- "@nut-tree/nut-js": "^4.0.0"
+As of [API version](Plugin-API-Versions.md) 2, mimacro provides the following packages:
+- "@jitsi/robotjs": "^0.6.13"
 - "@sienci/avrgirl-arduino": "^5.0.3"
 - "adm-zip": "^0.5.10"
 - "loudness": "^0.4.2"

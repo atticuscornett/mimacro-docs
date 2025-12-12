@@ -17,6 +17,21 @@ Restart mimacro and attempt to add the device again.
 </step>
 </procedure>
 
+<procedure title="My Arduino Uno is not listed as compatible." collapsible="true">
+<step>
+Open the Arduino IDE.
+</step>
+<step>
+Open the board manager on the left side of the window.
+</step>
+<step>
+Reinstall the "Arduino AVR Boards" package. (If UAC prompt appears, allow the changes and allow any driver installations.)
+</step>
+<step>
+Restart mimacro and attempt to add the device again.
+</step>
+</procedure>
+
 <procedure title="My macros are not working." collapsible="true">
 <step>
 Check that the device shows as connected on the devices page. (If it is not, see next section.)

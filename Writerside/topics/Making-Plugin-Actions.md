@@ -1,4 +1,8 @@
 # Making Plugin Actions
+<warning>
+Some example code has not been updated to reflect API version 2. <code>use("@nut-tree/nut-js")</code> is no longer available.
+See <a href="Plugin-API-Versions.md">plugin API versions</a> for more details.
+</warning>
 
 Let's make our first action using the mimacro plugin API.
 This tutorial assumes that you have already completed the steps in [creating a plugin](Creating-A-Plugin.md)
